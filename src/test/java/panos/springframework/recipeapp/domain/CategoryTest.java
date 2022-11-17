@@ -10,22 +10,22 @@ class CategoryTest {
     Category category;
 
     @BeforeEach
-    public void setUp(){
+    void setUp(){
         category = new Category();
     }
 
     @Test
-    public void getId() throws Exception {
+    void getId() throws Exception {
         Long idValue = 4L;
         category.setId(idValue);
         assertEquals(idValue,category.getId());
     }
 
     @Test
-    public void getDescription() throws Exception {
+    void getDescription() {
     }
 
     @Test
-    public void getRecipes() throws Exception {
+    void getRecipes() {
     }
 }
